@@ -108,7 +108,7 @@ ul {
 
 a:hover {
   text-decoration: none;
-  color: #ff4151;
+  color: #33646B;
 }
 
 img {
@@ -190,19 +190,22 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background-size: 200% auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff416c), to(#ff4b2b));
-  background-image: linear-gradient(to right, #ff416c, #ff4b2b);
   height: 50px;
   line-height: 50px;
-  -webkit-box-shadow: 0px 17px 43px 1px rgba(221, 26, 68, 0.356);
-          box-shadow: 0px 17px 43px 1px rgba(221, 26, 68, 0.356);
+  background-image: -webkit-gradient(linear, left top, right top, from(#33646B), to(#5A5642));
+  background-image: linear-gradient(to right, #33646B, #5A5642);
+  -webkit-box-shadow: 0px 17px 43px 1px rgba(90, 86, 66, 0.356);
+  box-shadow: 0px 17px 43px 1px rgba(90, 86, 66, 0.356);
+
+
 }
 
 .btn.theme-btn-1:hover {
   background-position: right center;
-  -webkit-box-shadow: 0px 17px 43px 1px rgba(221, 26, 36, 0.356);
-          box-shadow: 0px 17px 43px 1px rgba(221, 26, 36, 0.356);
+  -webkit-box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
+  box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
 }
+
 
 .shadow {
   -webkit-box-shadow: 0px 10px 80px 0px rgba(215, 215, 215, 0.4) !important;
@@ -234,7 +237,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .form-group .form-control:focus, .form-group .form-control.active {
-  border-color: #ff4151;
+  border-color: #33646B;
 }
 
 .form-group textarea {
@@ -253,15 +256,15 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 
 .custom-control-input:checked ~ .custom-control-label:before {
   color: #ffffff;
-  border-color: #ff4151;
-  background-color: #ff4151;
+  border-color: #33646B;
+  background-color: #33646B;
 }
 
 .custom-control-input:focus ~ .custom-control-label::before,
 .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-  border-color: #ff4151;
+  border-color: #33646B;
 }
 
 .custom-control-label {
@@ -389,8 +392,9 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   top: 0;
   right: 24px;
   color: #ffffff;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff416c), to(#ff4b2b));
-  background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: #ffffff;
+  background-image: -webkit-gradient(linear, left top, right top, from(#33646B), to(#1c8d6c));
+  background-image: linear-gradient(to right, #33646B, #1c8d6c);
   z-index: 9999;
   width: 40px;
   text-align: center;
@@ -430,8 +434,9 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff416c), to(#ff4b2b));
-  background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+  background-image: -webkit-gradient(linear, left top, right top, from(#33646B), to(#1c8d6c));
+background-image: linear-gradient(to right, #33646B, #1c8d6c);
+
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.5s ease-out 0s;
@@ -497,8 +502,8 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   color: #fff;
   top: 3px;
   z-index: 1;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff416c), to(#ff4b2b));
-  background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+ background-image: -webkit-gradient(linear, left top, right top, from(#33646B), to(#1c8d6c));
+  background-image: linear-gradient(to right, #33646B, #1c8d6c);
   border-radius: 0px;
 }
 
@@ -520,8 +525,8 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   -webkit-animation: ripple 1.6s ease-out infinite;
           animation: ripple 1.6s ease-out infinite;
   opacity: 0;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff416c), to(#ff4b2b));
-  background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+  background-image: -webkit-gradient(linear, left top, right top, from(#33646B), to(#1c8d6c));
+  background-image: linear-gradient(to right, #33646B, #1c8d6c);
   border-radius: 0px;
 }
 
@@ -578,7 +583,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   position: absolute;
   left: 0;
   top: 5px;
-  color: #ff4151;
+  color: #33646B;
   font-size: 22px;
   line-height: 20px;
 }
@@ -594,7 +599,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 
 .list-icon-2 li:before {
   content: "";
-  background: #ff4151;
+  background: #33646B;
   position: absolute;
   top: 8px;
   left: 0;
@@ -700,11 +705,11 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .theme-color-1 {
-  color: #ff4151 !important;
+  color: #33646B !important;
 }
 
 .bg-theme-color-1 {
-  background-color: #ff4151;
+  background-color: #33646B;
 }
 
 .bg-theme-li-color {
@@ -823,7 +828,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item a:hover, .acavo-nav .navbar .navbar-nav .nav-item a:focus, .acavo-nav .navbar .navbar-nav .nav-item a.active {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item:last-child {
@@ -836,7 +841,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 
 .acavo-nav .navbar .navbar-nav .nav-item:hover a,
 .acavo-nav .navbar .navbar-nav .nav-item.active a {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -855,7 +860,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   background: #ffffff;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  border-top: 3px solid #ff4151;
+  border-top: 3px solid #33646B;
   -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
 }
@@ -884,7 +889,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -900,7 +905,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -915,7 +920,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -930,7 +935,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -945,7 +950,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -960,7 +965,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -975,11 +980,11 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -988,7 +993,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -997,7 +1002,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -1006,7 +1011,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -1015,7 +1020,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -1024,7 +1029,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
@@ -1076,7 +1081,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu li a:hover, .acavo-nav .navbar .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu li a.active {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu li:first-child a {
@@ -1125,7 +1130,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 .acavo-nav .navbar .navbar-nav .nav-item.megamenu .dropdown-menu .single-category-widget .sub-title {
   display: block;
   margin-top: 5px;
-  color: #ff4151;
+  color: #33646B;
   font-weight: 600;
   font-size: 15px;
 }
@@ -1141,7 +1146,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .acavo-nav .navbar .navbar-nav .nav-item.megamenu .dropdown-menu .single-category-widget:hover .icon {
-  background-color: #ff4151;
+  background-color: #33646B;
   border-color: #ffffff;
   color: #ffffff;
 }
@@ -1195,7 +1200,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .acavo-nav .navbar .others-option .option-item .search-box .input-search:focus {
-  border-color: #ff4151;
+  border-color: #33646B;
   outline: none;
 }
 
@@ -1214,7 +1219,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   height: 48px;
   background-color: transparent;
   border: none;
-  color: #ff4151;
+  color: #33646B;
   border-radius: 5px;
   font-size: 22px;
   padding: 0 15px;
@@ -1294,7 +1299,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .others-option-for-responsive .dot-menu:hover .inner .circle {
-  background-color: #ff4151;
+  background-color: #33646B;
 }
 
 .others-option-for-responsive .container {
@@ -1369,7 +1374,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .others-option-for-responsive .option-inner .search-box .input-search:focus {
-  border-color: #ff4151;
+  border-color: #33646B;
 }
 
 .others-option-for-responsive .option-inner .search-box .input-search:focus::-webkit-input-placeholder, .others-option-for-responsive .option-inner .search-box .input-search:focus:-ms-input-placeholder, .others-option-for-responsive .option-inner .search-box .input-search:focus::-ms-input-placeholder, .others-option-for-responsive .option-inner .search-box .input-search:focus::-webkit-input-placeholder {
@@ -1387,7 +1392,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   height: 48px;
   background-color: transparent;
   border: none;
-  color: #ff4151;
+  color: #33646B;
   border-radius: 5px;
   padding: 0 15px;
 }
@@ -1429,13 +1434,13 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   line-height: 14px;
   border-radius: 50%;
   color: #ffffff;
-  background-color: #ff4151;
+  background-color: #33646B;
   font-size: 10px;
   font-weight: 600;
 }
 
 .others-option-for-responsive .option-inner .others-option .cart-btn a:hover {
-  color: #ff4151;
+  color: #33646B;
 }
 
 /*-- Header Responsive --*/
@@ -1471,7 +1476,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
     font-size: 15px;
   }
   .acavo-responsive-nav .acavo-responsive-menu.mean-container .mean-nav ul li a.active {
-    color: #ff4151;
+    color: #33646B;
   }
   .acavo-responsive-nav .acavo-responsive-menu.mean-container .mean-nav ul li li a {
     font-size: 14.5px;
@@ -1551,7 +1556,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
     font-weight: 600;
   }
   .acavo-responsive-nav .acavo-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu li a:hover, .acavo-responsive-nav .acavo-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu li a.active {
-    color: #ff4151;
+    color: #33646B;
   }
   .acavo-responsive-nav .acavo-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu li:first-child {
     border-top: 1px solid #eeeeee;
@@ -1597,7 +1602,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   .acavo-responsive-nav .acavo-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .single-category-widget .sub-title {
     display: block;
     margin-top: 5px;
-    color: #ff4151;
+    color: #33646B;
     font-weight: 600;
     font-size: 13px;
   }
@@ -1611,7 +1616,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
     z-index: 2;
   }
   .acavo-responsive-nav .acavo-responsive-menu.mean-container .navbar-nav .nav-item.megamenu .dropdown-menu .single-category-widget:hover .icon {
-    background-color: #ff4151;
+    background-color: #33646B;
     border-color: #ffffff;
     color: #ffffff;
   }
@@ -1651,7 +1656,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
     transition: 0.5s;
   }
   .acavo-responsive-nav .acavo-responsive-menu.mean-container .search-box .input-search:focus {
-    border-color: #ff4151;
+    border-color: #33646B;
   }
   .acavo-responsive-nav .acavo-responsive-menu.mean-container .search-box .input-search:focus::-webkit-input-placeholder, .acavo-responsive-nav .acavo-responsive-menu.mean-container .search-box .input-search:focus:-ms-input-placeholder, .acavo-responsive-nav .acavo-responsive-menu.mean-container .search-box .input-search:focus::-ms-input-placeholder, .acavo-responsive-nav .acavo-responsive-menu.mean-container .search-box .input-search:focus::-webkit-input-placeholder {
     color: transparent;
@@ -1666,7 +1671,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
     height: 48px;
     background-color: transparent;
     border: none;
-    color: #ff4151;
+    color: #33646B;
     border-radius: 5px;
     padding: 0 15px;
   }
@@ -1702,12 +1707,12 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
     line-height: 14px;
     border-radius: 50%;
     color: #ffffff;
-    background-color: #ff4151;
+    background-color: #33646B;
     font-size: 10px;
     font-weight: 600;
   }
   .acavo-responsive-nav .acavo-responsive-menu.mean-container .others-option .cart-btn a:hover {
-    color: #ff4151;
+    color: #33646B;
   }
   .acavo-responsive-nav .mean-container a.meanmenu-reveal {
     color: #565972;
@@ -1872,7 +1877,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 
 .hero-1 .hero-1-content .cate {
   margin-bottom: 25px;
-  color: #ff4151;
+  color: #33646B;
 }
 
 @media only screen and (max-width: 767px) {
@@ -2067,7 +2072,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .hero-2 .hero-2-form .nice-select .list .option:hover {
-  background-color: #ff4151 !important;
+  background-color: #33646B !important;
   color: #ffffff;
 }
 
@@ -2093,7 +2098,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 
 .hero-2 .hero-2-form .lost-your-id:hover,
 .hero-2 .hero-2-form .lost-your-password:hover {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .hero-2 .hero-2-form .hero-form-btn {
@@ -2253,7 +2258,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   height: 30px;
   width: 30px;
   line-height: 30px;
-  background: #ff4151;
+  background: #33646B;
   color: #ffffff;
   text-align: center;
   font-size: 20px;
@@ -2275,7 +2280,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .about-area .about-content .about-inner-content:hover .icon i {
-  background: #f64c67;
+  background: #33646B;
 }
 
 .about-area .about-image-warp {
@@ -2294,9 +2299,8 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   width: 60px;
   height: 60px;
   line-height: 70px;
-  background: -webkit-gradient(linear, left top, right top, from(#ff416c), to(#ff4b2b));
-  background: linear-gradient(to right, #ff416c, #ff4b2b);
-  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  background: -webkit-gradient(linear, left top, right top, from(#33646B), to(#1c8d6c));
+  background: linear-gradient(to right, #33646B, #1c8d6c);
   border-radius: 50%;
   color: #ffffff;
   position: absolute;
@@ -2323,7 +2327,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   bottom: 0;
   left: 0;
   border-radius: 50%;
-  border: 1px solid #f64c67;
+  border: 1px solid #33646B;
   -webkit-animation: ripple 1s linear 1s infinite;
           animation: ripple 1s linear 1s infinite;
 }
@@ -2338,7 +2342,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   bottom: 0;
   left: 0;
   border-radius: 50%;
-  border: 1px solid #f64c67;
+  border: 1px solid #33646B;
   -webkit-animation: ripple 1s linear infinite;
           animation: ripple 1s linear infinite;
 }
@@ -2346,7 +2350,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 .about-area .about-image-warp .video-btn:hover,
 .about-area .about-image-warp .video-btn .video-content .video-btn:focus {
   background-color: #ffffff;
-  color: #ff4151;
+  color: #33646B;
 }
 
 @-webkit-keyframes ripple {
@@ -2411,11 +2415,11 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .cta-area .get-start-box {
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff416c), to(#ff4b2b));
-  background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+  background-image: -webkit-gradient(linear, left top, right top, from(#33646B), to(#1c8d6c));
+  background-image: linear-gradient(to right, #33646B, #1c8d6c);
   border-radius: 8px;
-  -webkit-box-shadow: 0px 17px 43px 1px rgba(221, 26, 68, 0.356);
-          box-shadow: 0px 17px 43px 1px rgba(221, 26, 68, 0.356);
+  -webkit-box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
+          box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
@@ -2595,8 +2599,8 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
           transition-timing-function: cubic-bezier(0.07, 0.72, 0.24, 1);
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff416c), to(#ff4b2b));
-  background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+  background-image: -webkit-gradient(linear, left top, right top, from(#33646B), to(#1c8d6c));
+  background-image: linear-gradient(to right, #33646B, #1c8d6c);
   border-radius: 15px;
   opacity: 0;
   visibility: hidden;
@@ -2823,7 +2827,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .single-services .services-btn {
-  color: #f64c67;
+  color: #33646B;
   font-weight: 500;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -2844,7 +2848,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .single-services:hover h3 a {
-  color: #f64c67;
+  color: #33646B;
 }
 
 .single-services .icon {
@@ -2856,8 +2860,8 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   height: 80px;
   width: 80px;
   line-height: 80px;
-  background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: -webkit-gradient(linear, left bottom, right top, from(#33646B), color-stop(#109b75), color-stop(#17bd82), color-stop(#64c4a7), to(#ff3656));
+  background: linear-gradient(to right top, #33646B, #109b75, #17bd82, #17bd82, #64c4a7);
   color: #ffffff;
   font-size: 45px;
   border-radius: 50px;
@@ -2909,8 +2913,8 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   top: 0;
   width: 100%;
   height: 0;
-  background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: -webkit-gradient(linear, left bottom, right top, from(#33646B), color-stop(#109b75), color-stop(#17bd82), color-stop(#64c4a7), to(#ff3656));
+  background: linear-gradient(to right top, #33646B, #109b75, #17bd82, #17bd82, #64c4a7);
   z-index: -1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -2956,8 +2960,8 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   z-index: -1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: -webkit-gradient(linear, left bottom, right top, from(#33646B), color-stop(#109b75), color-stop(#17bd82), color-stop(#64c4a7), to(#ff3656));
+  background: linear-gradient(to right top, #33646B, #109b75, #17bd82, #17bd82, #64c4a7);
   -webkit-transform: rotate(-7deg);
   transform: rotate(-7deg);
 }
@@ -2973,8 +2977,8 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   height: 120px;
   width: 120px;
   line-height: 120px;
-  background: -webkit-gradient(linear, left bottom, right top, from(#fdb084), color-stop(#ff9870), color-stop(#ff7e62), color-stop(#ff5f59), to(#ff3656));
-  background: linear-gradient(to right top, #fdb084, #ff9870, #ff7e62, #ff5f59, #ff3656);
+  background: -webkit-gradient(linear, left bottom, right top, from(#33646B), color-stop(#109b75), color-stop(#17bd82), color-stop(#64c4a7), to(#ff3656));
+  background: linear-gradient(to right top, #33646B, #109b75, #17bd82, #17bd82, #64c4a7);
   color: #ffffff;
   font-size: 45px;
   border-radius: 50px;
@@ -2992,7 +2996,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .single-services-box .services-btn {
-  color: #f64c67;
+  color: #33646B;
   font-weight: 500;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -3013,7 +3017,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .single-services-box:hover h3 a {
-  color: #f64c67;
+  color: #33646B;
 }
 
 .single-services-box:hover .icon {
@@ -3069,7 +3073,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 .pricing-area .pricing-item .pricing-title .pricing-price {
   font-size: 60px;
   font-weight: 600;
-  color: #ff4151;
+  color: #33646B;
   margin-bottom: 0;
 }
 
@@ -3169,7 +3173,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   top: 0.75rem;
   left: 0rem;
   background-color: transparent !important;
-  color: #ff4151;
+  color: #33646B;
   border: none;
   z-index: 10;
   font-size: 1rem;
@@ -3207,10 +3211,10 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .login-page .login-form .login-social-icon {
-  background: -webkit-gradient(linear, left top, right top, from(#ff416c), to(#ff4b2b));
-  background: linear-gradient(to right, #ff416c, #ff4b2b);
-  -webkit-box-shadow: 0px 17px 43px 1px rgba(221, 26, 68, 0.356);
-          box-shadow: 0px 17px 43px 1px rgba(221, 26, 68, 0.356);
+  background: -webkit-gradient(linear, left bottom, right top, from(#33646B), color-stop(#109b75), color-stop(#17bd82), color-stop(#64c4a7), to(#ff3656));
+  background: linear-gradient(to right top, #33646B, #109b75, #17bd82, #17bd82, #64c4a7);
+  -webkit-box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
+  box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
   margin: -3rem -1rem 2rem;
   padding: 1rem;
   text-align: center;
@@ -3321,7 +3325,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .login-page .form-check-box:hover::before {
-  border-color: #ff4151;
+  border-color: #33646B;
 }
 
 .login-page .form-check-box::after {
@@ -3346,8 +3350,8 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 
 .login-page .form-check input:checked ~ .form-check-box::before {
   color: #fff;
-  border-color: #ff4151;
-  background-color: #ff4151;
+  border-color: #33646B;
+  background-color: #33646B;
 }
 
 .login-page .form-check input:checked ~ .form-check-box::after {
@@ -3400,13 +3404,13 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .blog-text h4 > a:hover {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .blog-text h4::before {
   height: 2px;
   width: 40px;
-  background: #ff4151;
+  background: #33646B;
   content: "";
   position: absolute;
   left: 0;
@@ -3423,7 +3427,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .blog-text > a:hover {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .blog-text > a i {
@@ -3496,11 +3500,12 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .pagination-style ul li a.active, .pagination-style ul li a:hover {
-  background-color: #ff4151;
+  background-color: #33646B;
   color: #fff;
-  border: 1px solid #ff4151;
-  -webkit-box-shadow: 0px 17px 43px 1px rgba(221, 26, 68, 0.356);
-          box-shadow: 0px 17px 43px 1px rgba(221, 26, 68, 0.356);
+  border: 1px solid #33646B;
+  -webkit-box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
+box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
+
 }
 
 .pagination-style ul li a i {
@@ -3568,8 +3573,8 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 
 .blog-post-tag a:hover {
   color: #fff;
-  background: #ff4151;
-  border-color: #ff4151;
+  background: #33646B;
+  border-color: #33646B;
 }
 
 .blog-post-tag a:last-child {
@@ -3601,11 +3606,11 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .cov-navigation h4 a:hover {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .blog-share-icon a:hover {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .blog-share-icon a:last-child {
@@ -3665,7 +3670,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .author-icon a:hover {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .post-comments {
@@ -3747,7 +3752,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .avatar-name span {
-  color: #ff4151;
+  color: #33646B;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
@@ -3770,7 +3775,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .reply:hover {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .reply i {
@@ -3914,7 +3919,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .sidebar .widget .catagory li a:hover {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .sidebar .widget .post-recent {
@@ -3943,7 +3948,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .sidebar .widget .post-recent .post-recent-content a:hover {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .sidebar .widget .post-recent .post-recent-content span {
@@ -3965,7 +3970,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .sidebar .widget .tagcloud > a:hover {
-  background: #ff4151;
+  background: #33646B;
   color: #ffffff;
 }
 
@@ -3987,7 +3992,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .social-icon li a:hover {
-  background-color: #ff4151;
+  background-color: #33646B;
 }
 
 .social-icon.social li a {
@@ -4009,7 +4014,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .author-icon a:hover {
-  color: #ff4151;
+  color: #33646B;
 }
 
 /*============================================
@@ -4108,7 +4113,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   text-align: center;
   left: 0;
   font-size: 40px;
-  color: #ff4151;
+  color: #33646B;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   top: 50%;
@@ -4154,8 +4159,8 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 .contact-info-box:hover .icon {
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff416c), to(#ff4b2b));
-  background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+  background-image: -webkit-gradient(linear, left top, right top, from(#33646B), to(#1c8d6c));
+  background-image: linear-gradient(to right, #33646B, #1c8d6c);
   color: #ffffff;
 }
 
@@ -4171,7 +4176,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   font-size: 16px;
   text-align: center;
   right: 30px;
-  color: #ff4151;
+  color: #33646B;
   top: 18px;
 }
 
@@ -4215,8 +4220,8 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   display: inline-block;
   overflow: hidden;
   max-width: 100%;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff416c), to(#ff4b2b));
-  background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+  background-image: -webkit-gradient(linear, left top, right top, from(#33646B), to(#1c8d6c));
+  background-image: linear-gradient(to right, #33646B, #1c8d6c);
 }
 
 .team-block .image-box img {
@@ -4252,7 +4257,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .team-block .lower-content h3 a:hover {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .team-block .lower-content .designation {
@@ -4339,13 +4344,13 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .faq-accordion-tab .tabs li a:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#ff416c), to(#ff4b2b));
-  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  background: -webkit-gradient(linear, left top, right top, from(#33646B), to(#1c8d6c));
+  background: linear-gradient(to right, #33646B, #1c8d6c);
   color: #ffffff;
 }
 
 .faq-accordion-tab .tabs li.current a {
-  background-color: #ff4151;
+  background-color: #33646B;
   color: #ffffff;
 }
 
@@ -4455,8 +4460,8 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 .right-bdr {
   height: 6px;
   width: 60px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff416c), to(#ff4b2b));
-  background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+  background-image: -webkit-gradient(linear, left top, right top, from(#33646B), to(#1c8d6c));
+  background-image: linear-gradient(to right, #33646B, #1c8d6c);
   border-radius: 10px;
   position: absolute;
 }
@@ -4639,7 +4644,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .open-account-area .open-account-form form .nice-select .list .option:hover {
-  background-color: #ff4151 !important;
+  background-color: #33646B !important;
   color: #ffffff;
 }
 
@@ -4674,17 +4679,17 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background-size: 200% auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff416c), to(#ff4b2b));
-  background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+  background-image: -webkit-gradient(linear, left top, right top, from(#33646B), to(#1c8d6c));
+  background-image: linear-gradient(to right, #33646B, #1c8d6c);
   height: 50px;
-  -webkit-box-shadow: 0px 17px 43px 1px rgba(221, 26, 68, 0.356);
-          box-shadow: 0px 17px 43px 1px rgba(221, 26, 68, 0.356);
+  -webkit-box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
+  box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
 }
 
 .open-account-area .open-account-form form .default-btn:hover {
   background-position: right center;
-  -webkit-box-shadow: 0px 17px 43px 1px rgba(221, 26, 36, 0.356);
-          box-shadow: 0px 17px 43px 1px rgba(221, 26, 36, 0.356);
+  -webkit-box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
+  box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
 }
 
 /*============================================
@@ -4797,7 +4802,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .loan-form-area .loan-form form .nice-select .list .option:hover {
-  background-color: #f2132b !important;
+   background-color: #33646B !important;
   color: #ffffff;
 }
 
@@ -4826,17 +4831,17 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background-size: 200% auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff416c), to(#ff4b2b));
-  background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+  background-image: -webkit-gradient(linear, left top, right top, from(#33646B), to(#1c8d6c));
+  background-image: linear-gradient(to right, #33646B, #1c8d6c);
   height: 50px;
-  -webkit-box-shadow: 0px 17px 43px 1px rgba(221, 26, 68, 0.356);
-          box-shadow: 0px 17px 43px 1px rgba(221, 26, 68, 0.356);
+  -webkit-box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
+  box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
 }
 
 .loan-form-area .loan-form form .default-btn:hover {
   background-position: right center;
-  -webkit-box-shadow: 0px 17px 43px 1px rgba(221, 26, 36, 0.356);
-          box-shadow: 0px 17px 43px 1px rgba(221, 26, 36, 0.356);
+  -webkit-box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
+  box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
 }
 
 /*============================================
@@ -4905,7 +4910,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 .loan-section .loan-confirm-form p {
   font-size: 30px;
   margin-bottom: 30px;
-  color: #ff4151;
+  color: #33646B;
 }
 
 .loan-section .loan-confirm-form p strong {
@@ -4930,17 +4935,17 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background-size: 200% auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff416c), to(#ff4b2b));
-  background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+  background-image: -webkit-gradient(linear, left top, right top, from(#33646B), to(#1c8d6c));
+  background-image: linear-gradient(to right, #33646B, #1c8d6c);
   height: 50px;
-  -webkit-box-shadow: 0px 17px 43px 1px rgba(221, 26, 68, 0.356);
-          box-shadow: 0px 17px 43px 1px rgba(221, 26, 68, 0.356);
+  -webkit-box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
+  box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
 }
 
 .loan-section .loan-confirm-form .apply-button:hover {
   background-position: right center;
-  -webkit-box-shadow: 0px 17px 43px 1px rgba(221, 26, 36, 0.356);
-          box-shadow: 0px 17px 43px 1px rgba(221, 26, 36, 0.356);
+   -webkit-box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
+  box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
 }
 
 /*============================================
@@ -5038,8 +5043,8 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   left: 0;
   width: 100%;
   height: 0;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff416c), to(#ff4b2b));
-  background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+  background-image: -webkit-gradient(linear, left top, right top, from(#33646B), to(#1c8d6c));
+  background-image: linear-gradient(to right, #33646B, #1c8d6c);
   border-radius: 4px;
   z-index: -1;
   -webkit-transition: all 0.4s ease;
@@ -5083,11 +5088,11 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   transition: all 0.3s;
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
-  border: 2px solid #ff4151;
+  border: 2px solid #33646B;
 }
 
 .testimonial-item-wrap-1 .owl-dots div.active, .testimonial-item-wrap-1 .owl-dots div:hover {
-  background-color: #ff4151;
+  background-color: #33646B;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
@@ -5224,7 +5229,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .testimonial-item-wrap-2 .owl-nav div:hover {
-  background-color: #ff4151;
+  background-color: #33646B;
   color: #fff;
 }
 
@@ -5333,11 +5338,11 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   transition: all 0.3s;
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
-  border: 2px solid #ff4151;
+  border: 2px solid #33646B;
 }
 
 .testimonial-item-wrap-2 .owl-dots div.active, .testimonial-item-wrap-2 .owl-dots div:hover {
-  background-color: #ff4151;
+  background-color: #33646B;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
@@ -5383,7 +5388,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 .single-featured-box .icon {
   -webkit-transition: .4s;
   transition: .4s;
-  color: #ee0979;
+  color: #33646B;
   position: absolute;
   top: 40px;
   left: 50%;
@@ -5426,8 +5431,8 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .single-featured-box .read-more-btn {
-  background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
-  background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#33646B), to(#1c8d6c));
+  background: linear-gradient(90deg, #33646B 0%, #1c8d6c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
@@ -5453,8 +5458,8 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   -webkit-transition: .5s;
   transition: .5s;
   height: 1px;
-  background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
-  background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#33646B), to(#1c8d6c));
+  background: linear-gradient(90deg, #33646B 0%, #1c8d6c 100%);
 }
 
 .single-featured-box .read-more-btn:hover::before {
@@ -5545,7 +5550,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 
 .why-choose-us-area .why-choose-us-content span {
   font-size: 16px;
-  color: #ff4151;
+  color: #33646B;
   display: block;
   margin-bottom: 5px;
   font-weight: 700;
@@ -5582,8 +5587,8 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
   height: 30px;
   line-height: 30px;
   text-align: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff416c), to(#ff4b2b));
-  background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+  background-image: -webkit-gradient(linear, left top, right top, from(#33646B), to(#1c8d6c));
+  background-image: linear-gradient(to right, #33646B, #1c8d6c);
   color: #fff;
   border-radius: 50%;
   font-size: 18px;
@@ -5841,7 +5846,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 .download-area ul li i {
   font-weight: bold;
   font-size: 18px;
-  color: #ff4151;
+  color: #33646B;
   margin-right: 15px;
 }
 
@@ -5940,7 +5945,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .footer-style .footer-top-wrapper .footer-top-link li a:hover {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .footer-style .footer-middle-area {
@@ -5997,7 +6002,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .footer-style .footer-middle-area .footer-wrapper .footer-link ul li a:hover {
-  color: #ff4151;
+  color: #33646B;
   opacity: 1;
 }
 
@@ -6019,10 +6024,9 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 
 .footer-style .footer-middle-area .footer-wrapper .footer-icon a:hover {
   color: #fff;
-  background: #ff4151;
-  -webkit-box-shadow: 0px 17px 43px 1px rgba(221, 26, 68, 0.356);
-          box-shadow: 0px 17px 43px 1px rgba(221, 26, 68, 0.356);
-  border: #ff4151;
+  background: #33646B;
+  box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
+  border: #33646B;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -6087,7 +6091,7 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .footer-style .footer-bottom-area .footer-bottom-link ul li a:hover {
-  color: #ff4151;
+  color: #33646B;
 }
 
 .footer-style .footer-bottom-area .footer-bottom-link ul li a::before {
@@ -6116,6 +6120,6 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 }
 
 .footer-style .footer-bottom-area .copyright p a {
-  color: #ff4151;
+  color: #33646B;
 }
 /*# sourceMappingURL=style.css.map */
