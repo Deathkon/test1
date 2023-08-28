@@ -1,4 +1,6 @@
 havity/__pycache__/
+venv
+venv/
 .idea/
 settings.cpython-311.pyc
 urls.cpython-311.pyc
