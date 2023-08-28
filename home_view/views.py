@@ -10,5 +10,10 @@ def home(request):
 def about(request):
     return render(request, 'about.html')
 
+
 def solution(request):
     return render(request, 'solution.html')
+
+
+def contact(request):
+    return render(request, 'contact.html')
