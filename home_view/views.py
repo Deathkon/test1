@@ -1,5 +1,4 @@
 from django.shortcuts import render, redirect
-from home_view.forms import ContactForm
 from django.contrib import messages
 import threading
 from django.core.mail import EmailMessage
