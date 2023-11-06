@@ -53,7 +53,7 @@
                             <i class="ri-map-2-line"></i>
                         </div>
                         <h3>Our Address</h3>
-                        <p>175 5th Ave, New York, NY 10010, United States</p>
+                        <p>Kigali, Rwanda</p>
                     </div>
                 </div>
                 <!-- /col -->
@@ -67,8 +67,8 @@
                             <i class="ri-phone-line"></i>
                         </div>
                         <h3>Contact</h3>
-                        <p>Mobile: <a href="tel:+44457895789">(+44) - 45789 - 5789</a></p>
-                        <p>E-mail: <a href="mailto:hello@aloa.com">hello@example.com</a></p>
+                        <p>Mobile: <a href="tel:+44457895789">(+250) - 725055 - 603</a></p>
+                        <p>E-mail: <a href="mailto:havity@gmail.com">havity@gmail.com</a></p>
                     </div>
                 </div>
                 <!-- /col -->
@@ -103,20 +103,21 @@
                 <!-- col -->
                 <div class="col-lg-6">
                     <div class="map-site ml-15">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14709.912151828446!2d89.5403187!3d22.82179695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1570748232408!5m2!1sen!2sbd"
-                            style="border:0;" allowfullscreen=""></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255203.60532819637!2d29.962426782626842!3d-1.9294194467235863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca4258ed8e797%3A0xf32b36a5411d0bc8!2sKigali!5e0!3m2!1sen!2srw!4v1698835570972!5m2!1sen!2srw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{#                        <iframe style="border:0;" src="https://www.google.com/maps/d/embed?mid=1_xJhYeS2A83UaCE9C2gVhCnWijI&hl=en_US&ehbc=2E312F"></iframe>#}
                     </div>
                 </div>
                 <!-- /col -->
                 <!-- col -->
                 <div class="col-lg-6 col-md-12 col-sm-12 form-column">
                     <div class="form-inner">
-                        <h3>Let’s Conversation<br />with Bnker</h3>
-                        <form method="post" action="#" id="contact-form" class="default-form">
+                        <h3>Let’s Conversation<br />with Banker</h3>
+                        {% include 'partial/_messages.html' %}
+                        <form method="post" id="contact-form" class="default-form">
+                            {% csrf_token %}
                             <div class="row clearfix">
                                 <div class="col-lg-12 col-md-12 col-sm-12 form-group contact-icon contacts-name">
-                                    <input type="text" name="username" placeholder="Your name *" required="">
+                                    <input type="text" name="full_name" placeholder="Your name *" required="">
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 form-group contact-icon contacts-email">
                                     <input type="email" name="email" placeholder="Your mail *" required="">
