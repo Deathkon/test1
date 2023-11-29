@@ -5,22 +5,22 @@
    File Description: Main Css file of the template
 */
 /*=========================================
-                 INDEX             
+                 INDEX
 ===========================================
 //
-//             01 -- Variables        
-//             02 -- General          
-//             03 -- Components          
+//             01 -- Variables
+//             02 -- General
+//             03 -- Components
 //             04 -- Header
 //             05 -- hero
-//             06 -- About        
-//             07 -- Cta 
+//             06 -- About
+//             07 -- Cta
 //             08 -- Portfolio
 //             09 -- Breadcrumb
 //             10 -- Services
-//             11 -- Pricing         
-//             12 -- Login  
-//             13 -- Blog                           
+//             11 -- Pricing
+//             12 -- Login
+//             13 -- Blog
 //             14 -- Contact
 //             15 -- Team
 //             16 -- Faq
@@ -2210,7 +2210,7 @@ background-image: linear-gradient(to right, #33646B, #1c8d6c);
 
 /*============================================
 
-                06 -- About 
+                06 -- About
 
 ==============================================*/
 .about-area .container-fluid {
@@ -2389,7 +2389,7 @@ background-image: linear-gradient(to right, #33646B, #1c8d6c);
 
 /*============================================
 
-                    07 -- Cta 
+                    07 -- Cta
 
 ==============================================*/
 .cta-area {
@@ -2698,7 +2698,7 @@ background-image: linear-gradient(to right, #33646B, #1c8d6c);
 
 /*============================================
 
-              09 -- Breadcrumb 
+              09 -- Breadcrumb
 
 ==============================================*/
 .banner-section {
@@ -3128,7 +3128,7 @@ background-image: linear-gradient(to right, #33646B, #1c8d6c);
 
 /*============================================
 
-               12 -- Login 
+               12 -- Login
 
 ==============================================*/
 .login-page {
@@ -3368,7 +3368,7 @@ background-image: linear-gradient(to right, #33646B, #1c8d6c);
 
 /*============================================
 
-                    13 -- Blog   
+                    13 -- Blog
 
 ==============================================*/
 .blog-area {
@@ -4019,7 +4019,7 @@ box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
 
 /*============================================
 
-              14 -- Contact Us 
+              14 -- Contact Us
 
 ==============================================*/
 .contact-section {
@@ -5968,6 +5968,12 @@ box-shadow: 0px 17px 43px 1px rgba(51, 100, 107, 0.356);
 @media only screen and (max-width: 767px) {
   .footer-style .footer-middle-area .footer-wrapper {
     margin-left: 0;
+  }
+}
+@media(max-width: 768px) {
+  .float-left,
+  .float-right {
+    float: none;
   }
 }
 
